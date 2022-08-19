@@ -39,6 +39,7 @@ mongoose
     console.log("MongoDB connected");
     return server.listen({ port: 430 });
   })
+
   .then((res) => {
     console.log(`server runnig at ${res.url}`);
   });
